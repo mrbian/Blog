@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "mocha": "DEBUG=koa* mocha",
-    "debugAll": "DEBUG=* supervisor -i src,public,views,webpack.config.js index.js ",
-    "start": " DEBUG=house supervisor -i src,public,views,webpack.config.js index.js ",
-    "win": " supervisor -i src,public,views,webpack.config.js index.js ",
-    "watch": "webpack-dev-server --content-base public/ "
+    "deploy": "hexo generate --deploy",
+    "start": "hexo server"
   },
   "hexo": {
     "version": "3.3.7"
