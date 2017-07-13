@@ -87,6 +87,15 @@
             {% endif %}
           </span>
 
+          {% if post.tags and post.tags.length and is_index %}
+                      <span class="post-meta-divider">|</span>
+                            <div class="post-tags">
+                              {% for tag in post.tags %}
+                                <a href="{{ url_for(tag.path) }}" rel="tag"># {{ tag.name }}</a>
+                              {% endfor %}
+                            </div>
+                    {% endif %}
+
           {% if post.categories and post.categories.length and theme.post_meta.categories %}
             <span class="post-category" >
             {% if theme.post_meta.created_at or theme.post_meta.updated_at %}
@@ -199,11 +208,13 @@
              </span>
           {% endif %}
 
-          {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
+          {% if post.tags and post.tags.length and not is_index %}
             <span class="post-meta-divider">|</span>
-            <span class="page-pv">{{ theme.busuanzi_count.page_pv_header }}
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ theme.busuanzi_count.page_pv_footer }}
-            </span>
+                  <div class="post-tags">
+                    {% for tag in post.tags %}
+                      <a href="{{ url_for(tag.path) }}" rel="tag"># {{ tag.name }}</a>
+                    {% endfor %}
+                  </div>
           {% endif %}
 
           {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
@@ -331,13 +342,6 @@
     </div>
 
     <footer class="post-footer">
-      {% if post.tags and post.tags.length and not is_index %}
-        <div class="post-tags">
-          {% for tag in post.tags %}
-            <a href="{{ url_for(tag.path) }}" rel="tag"># {{ tag.name }}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
 
       {% if not is_index %}
         {% if (theme.vkontakte_api.enable and theme.vkontakte_api.like) or (theme.facebook_sdk.enable and theme.facebook_sdk.like_button) %}

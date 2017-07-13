@@ -5,17 +5,35 @@
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: $black-light;
+  border-bottom: 0px;
+  //border-bottom-color: $black-light;
   font-size: 13px;
 
-  &:before {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 3px;
-    content: " ";
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background: rgb(random-color(0, 255) - 50%, random-color(0, 255) - 50%, random-color(0, 255) - 50%);
+  i,img{
+    opacity: 0.6;
+    width : 32px;
+    height: 32px;
+    font-size: 32px;
+    transition: all 0.5s;
   }
+
+  &:hover i{
+    opacity: 1;
+  }
+
+  &:hover img{
+    opacity: 1;
+  }
+
+
+//&:before {
+  //  display: inline-block;
+  //  vertical-align: middle;
+  //  margin-right: 3px;
+  //  content: " ";
+  //  width: 4px;
+  //  height: 4px;
+  //  border-radius: 50%;
+  //  background: rgb(random-color(0, 255) - 50%, random-color(0, 255) - 50%, random-color(0, 255) - 50%);
+  //}
 }
