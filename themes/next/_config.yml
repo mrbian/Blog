@@ -39,7 +39,7 @@ seo: true
 menu:
   home: /
 #  categories: /categories
-  resume: /resume
+  resume: /images/resume.pdf
   about: /about
   archives: /archives
   tags: /tags
