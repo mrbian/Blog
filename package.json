@@ -7,7 +7,7 @@
     "start": "hexo server"
   },
   "hexo": {
-    "version": "3.3.7"
+    "version": "3.4.4"
   },
   "dependencies": {
     "hexo": "^3.3.7",
@@ -20,7 +20,6 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "markdown": "^0.5.0",
-    "marked": "github:mrbian/marked"
+    "markdown": "^0.5.0"
   }
 }
