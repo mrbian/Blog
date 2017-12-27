@@ -63,3 +63,13 @@ FruitMaker/
 - 在这个项目里，前端技术我熟悉了AngularJs的开发，Angular1用于增删改查，着实是方便。
 - 后端技术学到最多的就是promise了，由于nodejs的单线程异步性质，很多代码就需要利用co和promise进行同步控制，比如原先正常的循环就需要改成递归才能保证执行的结果。
 - 架构方面，吸取到的最大的教训就是千万不要把前端代码和后端代码放到一个工程里，一定要做前后端分离，于是就有了用node做中间层的想法。同时也验证了做模块分离的正确性。
+
+### 项目部分页面截图
+这是我开发的页面的截图
+
+<img src="/images/xiaodizhu/1.png" alt="首页商店页面" width="300px" height="543px">
+![商品类别管理](/images/xiaodizhu/2.png)
+![订单管理](/images/xiaodizhu/3.png)
+![商品信息添加](/images/xiaodizhu/4.png)
+![超级管理员人员管理](/images/xiaodizhu/5.png)
+![区域管理](/images/xiaodizhu/6.png)

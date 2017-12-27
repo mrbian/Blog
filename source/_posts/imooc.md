@@ -57,3 +57,16 @@ IMooc/
 - 前后端分离真的很棒，即使是一个人对功能进行修改，也能做到条理清晰。
 
 - gulp+webpack自动化一定要做，会非常省心，开发者启动了自动程序后只需要关注代码即可，刷新浏览器，热加载一类的活就应该交给工具干！
+
+### 项目部分页面截图
+<img src="/images/imooc/3.png" alt="首页">
+<img src="/images/imooc/2.png" alt="首页">
+<img src="/images/imooc/9.png" alt="课程列表页面">
+<img src="/images/imooc/1.png" alt="视频播放页面">
+<img src="/images/imooc/4.png" alt="个人页面">
+<img src="/images/imooc/5.png" alt="课程管理列表页面">
+<img src="/images/imooc/8.png" alt="课程信息修改页面">
+<img src="/images/imooc/6.png" alt="课程信息修改页面">
+<img src="/images/imooc/10.png" alt="课程视频上传页面">
+
+

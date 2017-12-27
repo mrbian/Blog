@@ -60,3 +60,13 @@ xueban3/
 - 使用expect软件编写脚本，实现部署的全自动化，节省了大量时间人力，在后面的工程中都做了自动化部署脚本。
 - 同安卓，IOS客户端开发的接口设定，要有错误码等信息，交流时应该注意综合二人的困难选一个折中的方面。
 - 即使是JS，单步调试必不可少。
+
+### 项目部分页面截图
+这是应用部分页面的截图
+<img src="/images/xueban/0.png" alt="登录页面" width="300px" height="533px">
+<img src="/images/xueban/5.png" alt="课表页面" width="300px" height="533px">
+<img src="/images/xueban/4.png" alt="动态页面" width="300px" height="533px">
+
+<img src="/images/xueban/6.png" alt="发现页面" width="300px" height="533px">
+<img src="/images/xueban/1.png" alt="个人页面" width="300px" height="533px">
+<img src="/images/xueban/2.png" alt="卧谈会页面" width="300px" height="533px">
