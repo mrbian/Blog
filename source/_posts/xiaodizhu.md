@@ -68,6 +68,7 @@ FruitMaker/
 这是我开发的页面的截图
 
 <img src="/images/xiaodizhu/1.png" alt="首页商店页面" width="300px" height="543px">
+
 ![商品类别管理](/images/xiaodizhu/2.png)
 ![订单管理](/images/xiaodizhu/3.png)
 ![商品信息添加](/images/xiaodizhu/4.png)
